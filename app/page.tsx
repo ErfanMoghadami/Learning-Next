@@ -5,10 +5,13 @@ import styles from "@/app/ui/home.module.css";
 import Image from "next/image";
 import { lusitana } from "@/app/ui/fonts";
 
+import { Metadata } from 'next';
 
 
-
-
+export const metadata: Metadata = {
+  title: 'invoices | acme dashboard',
+  description: 'View and manage your invoices for Acme.',
+}
 
 
 
